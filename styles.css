@@ -5,12 +5,17 @@
 
 .header {
     background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    padding: 15px 100px 15px 100px;
+    justify-content: space-around;
 }
 
 .header-logo {
     font-size: 24px;
     font-weight: bold;
     color: #F9FAF8;
+    margin-right: auto;
 }
 
 a {
@@ -21,6 +26,14 @@ a {
 
 ul {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
+.header-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+}
 
